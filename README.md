@@ -7,11 +7,12 @@ I've decided to run this repository in order to help "ma comrades" with implemen
 
 Clone this repository
 ```bash
-$ git clone https://github.com/soundsnick/cryptography-ruby
+$ git clone https://github.com/soundsnick/cryptography
 ```
-Run algorithm you want
+Go into your language folder and run algorithm you want using your interpreter/compiler.
+Example using Ruby:
 ```bash
-$ cd cryptography-ruby
+$ cd cryptography/ruby
 $ ruby <method>.rb
 ```
 
