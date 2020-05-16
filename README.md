@@ -2,6 +2,7 @@
 
 I've decided to run this repository in order to help "ma comrades" with implementing and **understanding** basic cryptography algorithms listed below:
 - Caesar cipher method
+- Substitution cipher method
 
 ## Getting started
 
