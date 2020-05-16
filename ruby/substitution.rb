@@ -21,10 +21,13 @@ def __main__ # Entrypoint
 
       print "What's the alphabet string. Default: 'ZYXWVUTSRQPONMLKJIHGFEDCBA': "
       alphabet_str = gets.chomp.upcase # Gets alphabe string
+
+      # Errors
       alphabet("Alphabet length is not 26 letters! Try again.") if alphabet_str.length != 26 and alphabet_str.length != 0 # Tries again when alphabet length is not 26
       alphabet("Alphabet letters must be unique! Try again.") if alphabet_str.chars.uniq.length != alphabet_str.length # Tries again when repeated letters detected
       alphabet("Alphabet is in it's correct order! Enter inordered alphabet. ") if alphabet_str === "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
       alphabet_str = "ZYXWVUTSRQPONMLKJIHGFEDCBA" if alphabet_str.length === 0 # Sets default value when input is empty
+      
       alphabet_str
     end
 
