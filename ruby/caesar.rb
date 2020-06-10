@@ -24,10 +24,10 @@ def __main__ # Entrypoint
       print "What action you'd like to run? \n[0] Encrypt\n[1] Decrypt\n> "
       action_str = /^[^\d]*(\d+)/.match(gets.chomp)[1].to_i
       action("Please input correct action id. Options are 0 and 1") if(action_str > 1) # Call action input method again if action id is not correct
-      action
+      action_str
     end
 
-    message, step, action
+    return message, step, action
   end
 
   message, step, action = __input__ # Save variables from STDIN
