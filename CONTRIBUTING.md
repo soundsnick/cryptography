@@ -60,9 +60,9 @@ Best way to understand if your commit message's good is too create sentence like
 **Examples**:
 ```
 feat: add component Card
-docs(card): add jsdoc (DI-36)
-fix(theme): typo in property name (DI-12)
-style(table): display columns in reverse order (DI-432)
+docs(ruby): add jsdoc (DI-36)
+fix(python): typo in property name (DI-12)
+style(go): display columns in reverse order (DI-432)
 ```
 
 #### Branch naming
