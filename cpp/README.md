@@ -1,4 +1,4 @@
-# Basic cipher methods on Java
+# Basic cipher methods on C++
 
 This folder contains algorithms listed below:
 - *Diffie-Hellman* cipher algorithm
@@ -6,14 +6,14 @@ This folder contains algorithms listed below:
 
 ## Usage
 
-Run  script using your java interpreter.
+Run  script using your c++ interpreter.
 ```bash
-$ javac <method>.java
-$ java <method>.class
+$ g++ <method>.cpp
 ```
 
 ## Version
-This files use version 12.0.2 of JDK
+This files use version VC++ 12.0
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
