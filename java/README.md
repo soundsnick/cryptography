@@ -6,7 +6,7 @@ This folder contains algorithms listed below:
 
 ## Usage
 
-Run  script using your ruby interpreter.
+Run  script using your java interpreter.
 ```bash
 $ javac <method>.java
 $ java <method>.class
